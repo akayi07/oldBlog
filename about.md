@@ -11,7 +11,8 @@ key: page-about
 Welcome to my blog! :earth_asia: :earth_africa: :earth_americas:
 
 大家好，我叫卓利苗，这是我的博客。
-我喜欢新知识，我是个初学者，我会加油的。
+
+我热爱学习新知识，我是个初学者，我会加油的。
 
 ## Skills
 
