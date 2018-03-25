@@ -10,9 +10,8 @@ key: page-about
 
 Welcome to my blog! :earth_asia: :earth_africa: :earth_americas:
 
-{% highlight javascript %}
-(() => console.log('hello, world!'))();
-{% endhighlight %}
+大家好，我叫卓利苗，这是我的博客。
+我喜欢新知识，我是个初学者，我会加油的。
 
 ## Skills
 
