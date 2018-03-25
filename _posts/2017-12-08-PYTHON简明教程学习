@@ -1,0 +1,28 @@
+1.反斜线\可以在多个物理行中写一个逻辑行。
+
+2.制表符（tab）、空格可以用来缩进，但是空格适用性大。可以使用单个tab或2个或4个空格，只用一种，养成习惯，关键是制表符和空格不能混用
+
+3编译型语言执行效率优于解释型，因为编译器在编译过程中会根据不同平台自动优化目标代码，且特点为1次编译，N次运行
+
+4-25.5%2.25=-12*2.25+1.5，余数为1.5；25.5%2.25=11*2.25+0.75，余数为0.75
+
+5Python解释器在做布尔运算时，只要能提前确定计算结果，它就不会往后算了，直接返回结果，称为短路计算。
+
+6格式化方法
+
+1 age = 20
+2 name = 'Swaroop'
+3 
+4 print('{0} was {1} years old when he wrote this book'.format(name, age))
+5 print('Why is {0} playing with python'.format(name))
+
+1 age = 22
+2 name = 'akayi'
+3 print(name + ' is ' + str(age) + ' years old')
+
+1 age = 22
+2 name = 'akayi'
+3 print('{} is {} years old when he started learned python'.format(name, age))
+4 print('why is {} ?'.format(name))
+
+ 
