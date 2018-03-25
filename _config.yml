@@ -44,10 +44,10 @@ timezone: Asia/Shanghai #see https://en.wikipedia.org/wiki/List_of_tz_database_t
 ## Author & social ##
 author:
   name: Someone
-  # email:  zhuolimiaotx@163.com
+   email:  zhuolimiaotx@163.com
   # facebook:  #your Facebook username
   # twitter:  #your Twitter username
-  # github:  czlm
+   github:  czlm
   # googleplus:  #your Google+ username
   # weibo:  #your Weibo username
   # douban:  #your Douban username
