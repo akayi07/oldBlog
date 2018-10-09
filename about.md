@@ -16,6 +16,6 @@ Welcome to my blog! :earth_asia: :earth_africa: :earth_americas:
 
 ## Skills
 
-- HTML&CSS&JavaScrpt, PYTHON, C, javase
+- HTML, CSS, JavaScrpt, Python, C, JavaSE, MySQL, jQuery, PHP
 - PowerPoint, Word, Excel
 
