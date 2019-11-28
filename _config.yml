@@ -15,7 +15,7 @@ text_color_theme: default #eg: default | dark | forest | ocean | chocolate | ora
 ## Base settings ##
 # url:  #the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: /
-title: <b>akayi的博客</b>
+title: <h1 font-size="30px" font-style><b>akayi的博客</b></h1>
 description: > #this means to ignore newlines until "nav_lists:"
   zhuolimiaotx@163.com
 
@@ -47,7 +47,7 @@ author:
   email:  zhuolimiaotx@163.com
   # facebook:  #your Facebook username
   # twitter:  #your Twitter username
-  github:  czlm
+  github:  akayi
   # googleplus:  #your Google+ username
   # weibo:  #your Weibo username
   # douban:  #your Douban username
