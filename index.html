@@ -6,6 +6,7 @@ titles:
   zh-Hans: 博客
   zh-Hant: 博客
 ---
+<p>
 {% for post in paginator.posts %}
   {% if post.pinned %}
     Pinned Post! 
@@ -23,3 +24,4 @@ titles:
     {{ post.content }}
   {% endunless %}
 {% endfor %}
+</p>
