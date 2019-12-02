@@ -2,6 +2,25 @@
 layout: base
 ---
 <div class="m-post">
+	<p>
+{% for post in paginator.posts %}
+  {% if post.pinned %}
+    Pinned Post! 
+    {{ post.title }}
+    {{ post.date }}
+    {{ post.content }}
+  {% endif %}
+{% endfor %}
+
+{% for post in paginator.posts %}
+  {% unless post.pinned %}
+    Regular Post.
+    {{ post.title }}
+    {{ post.date }}
+    {{ post.content }}
+  {% endunless %}
+{% endfor %}
+</p>
 	<div class="main clearfix js-main">
 		<div class="col-2 js-col-2">
 			<aside class="js-article-aside"><div class="m-toc js-toc"></div></aside>
