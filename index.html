@@ -6,10 +6,3 @@ titles:
   zh-Hans: 博客
   zh-Hant: 博客
 ---
-{% for post in site.posts %}{% if post.sticky %}
-* [{{post.title}}]({{post.url}}) {{post.date|date_to_string}}
-{% endif %}{% endfor %}
-
-{% for post in site.posts %}{% unless post.sticky %}
-* [{{post.title}}]({{post.url}}) {{post.date|date_to_string}}
-{% endunless %}{% endfor %}
