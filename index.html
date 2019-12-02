@@ -6,40 +6,10 @@ titles:
   zh-Hans: 博客
   zh-Hant: 博客
 ---
+{% for post in site.posts %}{% if post.sticky %}
+* [{{post.title}}]({{post.url}}) {{post.date|date_to_string}}
+{% endif %}{% endfor %}
 
-<div class="blog-index">
-  {% assign index = true %}
-  <!-- add this section to put sticky posts on page 1 -->
-  {% if paginator.page == 1 %}
-    {% for post in site.categories.sticky %}
-    {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-    {% endfor %}
-  {% endif %}
-  {% for post in paginator.posts %}
-    <!-- this next section is used to see if the post is sticky, in which case it's already been shown -->
-    {% assign sticky = false %}
-    {% for cat in post.categories %} <!-- roll through this pages categories to find if it is sticky -->
-      {% if cat == 'sticky' %}
-        {% assign sticky = true %}
-      {% endif %}
-    {% endfor %}
-    {% unless sticky %} <!-- only show the article if it is NOT sticky -->
-      {% assign content = post.content %}
-      <article>
-        {% include article.html %}
-      </article>
-    {% endunless %}
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</div>
+{% for post in site.posts %}{% unless post.sticky %}
+* [{{post.title}}]({{post.url}}) {{post.date|date_to_string}}
+{% endunless %}{% endfor %}
