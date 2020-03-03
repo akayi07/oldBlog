@@ -12,10 +12,8 @@ Welcome to my blog! :earth_asia: :earth_africa: :earth_americas:
 
 大家好，我叫卓利苗，这是我的博客。
 
-我热爱学习新知识，我是个初学者，我会加油的。
-
 ## Skills
 
-- 熟悉HTML, CSS和JavaScrpt, 自学过Python, C, JavaSE, MySQL, jQuery, PHP
+- 用HTML, CSS和JavaScrpt，Vue自己做过demo,自学过html,css,javascript,vue(vue-router,和vue相关的webpack部分，axios等),Python, C, JavaSE, MySQL, jQuery, PHP...,了解过RESTful规范，软件测试
 
 
