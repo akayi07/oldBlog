@@ -13,6 +13,6 @@ My name is 卓利苗, I am a front-end developer.This is my blog about learning 
 
 ## Skills
 - Experienced in HTML, CSS,JavaScrpt，Vue，layui
-- I have learned Python, C, JavaSE, MySQL, jQuery, PHP and software testing through reading and Internet but I have no work experience in those areas.
+- I have learned Python, C, JavaSE, MySQL, jQuery, PHP and software testing through reading and Internet, but I have no work experience in those areas.
 
 
