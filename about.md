@@ -8,12 +8,11 @@ titles:
 key: page-about
 ---
 
-Welcome to my blog! :earth_asia: :earth_africa: :earth_americas:
-
-大家好，我叫卓利苗，这是我的博客。
+Welcome to my blog!
+My name is 卓利苗, I am a front-end developer.This is my blog about learning summary， thoughts and so on. 
 
 ## Skills
-
-- 用HTML, CSS和JavaScrpt，Vue自己做过demo,自学过html,css,javascript,vue(vue-router,和vue相关的webpack部分，axios等),Python, C, JavaSE, MySQL, jQuery, PHP...,了解过RESTful规范，软件测试
+- Experienced in HTML, CSS,JavaScrpt，Vue，layui
+- I have learned Python, C, JavaSE, MySQL, jQuery, PHP and software testing through reading and Internet but I have no work experience in those areas.
 
 
