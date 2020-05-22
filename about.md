@@ -8,8 +8,9 @@ titles:
 key: page-about
 ---
 
-Welcome to my blog!
-My name is 卓利苗, I am a front-end developer.This is my blog about learning summary， thoughts and so on. 
+Welcome to my blog!<br>
+My Chinese name is 卓利苗, I am a front-end developer.<br>
+This is my blog about learning summary， thoughts and so on. 
 
 ## Skills
 - Experienced in HTML, CSS,JavaScrpt，Vue，layui
